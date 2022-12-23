@@ -165,73 +165,67 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6 mb-4">
-                  <div class="form-outline">
-                    <input
-                      type="text"
-                      id="District"
-                      class="form-control form-control-lg"
-                    />
-                    <label class="form-label" for="firstName"
-                      >District</label
-                    >
-                  </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                  <div class="form-outline">
-                    <input
-                      type="text"
-                      id="state"
-                      class="form-control form-control-lg"
-                    />
-                    <label class="form-label" for="lastName"
-                      >State</label
-                    >
-                  </div>
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                  <input
+                    type="text"
+                    id="District"
+                    class="form-control form-control-lg"
+                  />
+                  <label class="form-label" for="firstName">District</label>
                 </div>
               </div>
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                  <input
+                    type="text"
+                    id="state"
+                    class="form-control form-control-lg"
+                  />
+                  <label class="form-label" for="lastName">State</label>
+                </div>
+              </div>
+            </div>
 
-              <div class="row">
-                <div class="col-md-6 mb-4">
-                  <div class="form-outline">
-                    <input
-                      type="text"
-                      id="pincode"
-                      class="form-control form-control-lg"
-                    />
-                    <label class="form-label" for="firstName"
-                      >Pin Code</label
-                    >
-                  </div>
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                  <input
+                    type="text"
+                    id="pincode"
+                    class="form-control form-control-lg"
+                  />
+                  <label class="form-label" for="firstName">Pin Code</label>
                 </div>
               </div>
+            </div>
 
-              <div class="row">
-                <div class="col-md-6 mb-4">
-                  <div class="form-outline">
-                    <input
-                      type="text"
-                      id="dmonth"
-                      class="form-control form-control-lg"
-                    />
-                    <label class="form-label" for="firstName"
-                      >Last Donation Month</label
-                    >
-                  </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                  <div class="form-outline">
-                    <input
-                      type="text"
-                      id="dyear"
-                      class="form-control form-control-lg"
-                    />
-                    <label class="form-label" for="lastName"
-                      >Last Donation Year</label
-                    >
-                  </div>
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                  <input
+                    type="text"
+                    id="dmonth"
+                    class="form-control form-control-lg"
+                  />
+                  <label class="form-label" for="firstName"
+                    >Last Donation Month</label
+                  >
                 </div>
               </div>
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                  <input
+                    type="text"
+                    id="dyear"
+                    class="form-control form-control-lg"
+                  />
+                  <label class="form-label" for="lastName"
+                    >Last Donation Year</label
+                  >
+                </div>
+              </div>
+            </div>
 
             <div class="row">
               <div class="col-12">
@@ -246,13 +240,13 @@
                 >
               </div>
             </div>
-            
 
             <div class="mt-4 pt-2">
               <input
                 class="btn btn-primary btn-lg"
                 type="submit"
                 value="Submit"
+                onclick="showAlert()"
               />
             </div>
           </form>
@@ -267,7 +261,7 @@
         class="text-center p-4"
         style="background-color: rgba(0, 0, 0, 0.025)"
       >
-      © 2022 Copyright aryan bisht
+        © 2022 Copyright
       </div>
     </footer>
     <!-- footer ends -->
@@ -276,5 +270,11 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function showAlert() {
+        alert("Your data has been submited");
+        console.log("1");
+      }
+    </script>
   </body>
 </html>
