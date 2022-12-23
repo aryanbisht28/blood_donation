@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar h5{
+    font-size: 1.5vw;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 1vw;
+    padding-right: 2vw;
+}
+
+.login-main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 87vh;
+}
+
+.login-svg{
+    width: 60%;
+    align-items: center;
+    height: 80vh;
+    display: flex;
+}
+
+.login-form{
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    height: 80vh;
+    display: flex;
+}
+
